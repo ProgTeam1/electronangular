@@ -1,10 +1,13 @@
 {
-  "name": "syntax-packet",
+  "name": "electro-angular",
   "version": "0.0.0",
   "license": "MIT",
+  "main": "main.js",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "electron": "ng build && electron .",
+    "prod": "ng build --prod && electron .",
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
@@ -21,7 +24,11 @@
     "@angular/platform-browser": "^5.2.0",
     "@angular/platform-browser-dynamic": "^5.2.0",
     "@angular/router": "^5.2.0",
+    "@ng-bootstrap/ng-bootstrap": "^1.0.4",
+    "bootstrap": "^4.0.0",
     "core-js": "^2.4.1",
+    "electron": "^1.8.4",
+    "ngx-electron": "^1.0.4",
     "rxjs": "^5.5.6",
     "zone.js": "^0.8.19"
   },

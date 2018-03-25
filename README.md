@@ -1,27 +1,44 @@
-# SyntaxPacket
+# Introduction
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.2.
+The love of Electron and Angular = ElectroAngular.
 
-## Development server
+ElectroAngular is an starter application project template or a boilerplate which helps you to build base applications fast and efficient.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Features
 
-## Code scaffolding
+ElectroAngular ships with the following
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- [Bootstrap 4](https://getbootstrap.com/)
+- [ng-bootstrap](https://ng-bootstrap.github.io/)
+- [ngx-electron](https://github.com/ThorstenHans/ngx-electron)
+- [electron](https://electronjs.org/)
+- [Angular 5](https://angular.io)
+- [Sass](https://sass-lang.com/)
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+## Requirements
 
-## Running unit tests
+- [Angular CLI](https://cli.angular.io/)
+- [node](https://nodejs.org/en/)
+- [npm](https://www.npmjs.com/)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Getting Started
 
-## Running end-to-end tests
+```bash
+    $   git clone https://github.com/syntaxcoder/electroangular.git
+    $   cd ElectronAngular
+    $   npm install
+    $   npm run electron
+    $   npm run prod (production release)
+```
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Testing
 
-## Further help
+The support for writing unit tests is yet to be implmented. This will be shipped in the next version
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Contribution
+
+If your having any issues, please log/report the bug in the issues section and I will try to solve the bug as soon as I can.
+
+
+## Thank you

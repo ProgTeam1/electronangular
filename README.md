@@ -4,6 +4,8 @@ The love of Electron and Angular = ElectroAngular.
 
 ElectroAngular is an starter application project template or a boilerplate which helps you to build base applications fast and efficient.
 
+![ScreenShot](ss.png)
+
 ## Features
 
 ElectroAngular ships with the following
